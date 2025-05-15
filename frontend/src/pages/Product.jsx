@@ -36,6 +36,7 @@ const Product = () => {
             }
         };
         fetchProductData();
+        window.scrollTo(0, 0); 
     }, [productId, products]); // Add products to dependency array
 
     if (loading) {
